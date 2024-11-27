@@ -49,7 +49,7 @@ export default function RootLayout({
           </div> 
           <div className="drawer-side">
             <label htmlFor="my-drawer-2" className="drawer-overlay"></label> 
-            <div className="menu p-4 w-80 min-h-full bg-base-200 text-base-content">
+            <div className="menu p-4 w-64 min-h-full bg-base-200 text-base-content">
               <div className="hidden lg:block mb-8">
                 <Link href="/" className="text-2xl font-bold">ARA</Link>
               </div>
