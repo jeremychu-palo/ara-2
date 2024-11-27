@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="600px" viewBox="0 0 800 600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient">
+            <stop stop-color="#4F46E5" offset="0%"></stop>
+            <stop stop-color="#2563EB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#F3F4F6" x="0" y="0" width="800" height="600"></rect>
+        <g transform="translate(100, 100)">
+            <!-- Document Icons -->
+            <rect fill="url(#linearGradient)" x="50" y="50" width="200" height="250" rx="10"></rect>
+            <rect fill="white" x="70" y="80" width="160" height="20" rx="4"></rect>
+            <rect fill="white" x="70" y="120" width="120" height="20" rx="4"></rect>
+            <rect fill="white" x="70" y="160" width="140" height="20" rx="4"></rect>
+            
+            <!-- Connection Lines -->
+            <path d="M250,175 L350,175" stroke="#4F46E5" stroke-width="4" stroke-linecap="round" stroke-dasharray="8,8"></path>
+            
+            <!-- Analysis Circle -->
+            <circle fill="#2563EB" cx="400" cy="175" r="50"></circle>
+            <path d="M380,175 L420,175 M400,155 L400,195" stroke="white" stroke-width="4" stroke-linecap="round"></path>
+            
+            <!-- Result Document -->
+            <rect fill="url(#linearGradient)" x="450" y="50" width="200" height="250" rx="10"></rect>
+            <rect fill="white" x="470" y="80" width="160" height="20" rx="4"></rect>
+            <rect fill="white" x="470" y="120" width="120" height="20" rx="4"></rect>
+            <rect fill="white" x="470" y="160" width="140" height="20" rx="4"></rect>
+            
+            <!-- Checkmark -->
+            <circle fill="#10B981" cx="530" cy="250" r="25"></circle>
+            <path d="M520,250 L528,258 L540,242" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>
